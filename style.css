@@ -126,10 +126,6 @@ section{
     text-transform: uppercase;
 }
 
-.about{
-    min-height: 100vh;
-}
-
 .about .row{
     display: flex;
     align-items: center;
@@ -159,7 +155,7 @@ section{
 }
 
 .itens-menu{
-    width: 86px;
+    width: 100px;
     height: 86px;
     border-radius: 50%;
 }
