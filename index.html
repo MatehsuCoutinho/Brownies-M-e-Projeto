@@ -10,10 +10,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
     <header class="header">
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
         <section>
             <a href="#" class="logo">
                 <img height="78" src="assets/logo.png" alt="logo">
@@ -35,8 +39,7 @@
     <div class="home-container">
         <section id="home">
             <div class="content">
-                <h3>Brownies & Cookies
-                    Prove, que eu sou suspeito pra falar!</h3>
+                <h3>Brownies & Cookies<br>Prove, que eu sou suspeito pra falar!</h3>
                 <p>A O Brownie da Minha Mãe é uma confeitaria artesanal dedicada a oferecer os mais deliciosos brownies,
                     preparados com receitas caseiras que remetem ao aconchego e ao sabor da infância. Nossa missão é
                     proporcionar momentos doces e especiais aos nossos clientes, mantendo a tradição e o carinho em cada
@@ -188,25 +191,111 @@
         </div>
     </section>
 
-    <section class="address" id="address">
-        <h2 class="title">Nosso <span>Endereço</span></h2>
-
-        <iframe
-            src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d859.52366786541!2d-46.67931663917797!3d-23.535786024280522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57f072587a79%3A0x75a629d915ef3562!2sRua%20Apinaj%C3%A9s%2C%20474%20-%20Pompeia%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005017-000!5e1!3m2!1spt-BR!2sbr!4v1742513506154!5m2!1spt-BR!2sbr"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>"></iframe>
-    </section>
-
-    <section class="footer">
-        <div class="share">
-            <a href="https://www.facebook.com/p/O-Brownie-da-Minha-Mãe-100085240481862/"><img width="30" height="30"
-                    src="https://img.icons8.com/ios-glyphs/30/F0E0C8/facebook-new.png" alt="facebook-new" /></a>
-            <a href="https://www.instagram.com/obrowniedaminhamae/"><img width="30" height="30"
-                    src="https://img.icons8.com/ios-glyphs/30/F0E0C8/instagram-new.png" alt="instagram-new" /></a>
-            <a href="#"><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/F0E0C8/whatsapp.png"
-                    alt="whatsapp" /></a>
+    <section id="address" class="contact">
+        <div class="section-header">
+            <h2 class="title">Nosso <span>Endereço</span></h2>
+        </div>
+        <div class="contact-container">
+            <div class="contact-form reveal-item">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d859.52366786541!2d-46.67931663917797!3d-23.535786024280522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57f072587a79%3A0x75a629d915ef3562!2sRua%20Apinaj%C3%A9s%2C%20474%20-%20Pompeia%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005017-000!5e1!3m2!1spt-BR!2sbr!4v1742513506154!5m2!1spt-BR!2sbr"
+                    style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            <div class="contact-info reveal-item delay-1">
+                <div class="contact-card">
+                    <h3>Informações de Contato</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Endereço</h4>
+                            <p>Rua Apinajés, 474 - Perdizes, SP</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h4>Telefone</h4>
+                            <p>(11) 99999-9999</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>contato@adefinir.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Horário</h4>
+                            <p>Terça a domingo - 11h às 19h</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a target="_blank" href="https://www.facebook.com/p/O-Brownie-da-Minha-Mãe-100085240481862/"
+                            class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/obrowniedaminhamae/" class="social-link"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-logo footer-itens">
+                <img height="78" src="assets/logo.png" alt="logo">
+            </div>
+            <div class="footer-links footer-itens">
+                <h4>Links Rápidos</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#address">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-links footer-itens">
+                <a target="_blank" href="https://drive.google.com/file/d/1wT_o94p98oOjCQxk0LGBrfFoyj8VxJeu/view"><h4 class="encomendas">ENCOMENDAS</h4></a>
+                <ul>
+                    <li><a href="https://drive.google.com/file/d/1wT_o94p98oOjCQxk0LGBrfFoyj8VxJeu/view">Bolos</a></li>
+                    <li><a href="https://drive.google.com/file/d/1wT_o94p98oOjCQxk0LGBrfFoyj8VxJeu/view">Torta Brownie</a></li>
+                    <li><a href="https://drive.google.com/file/d/1wT_o94p98oOjCQxk0LGBrfFoyj8VxJeu/view">Tabuleiro Brownie</a></li>
+                    <li><a href="https://drive.google.com/file/d/1wT_o94p98oOjCQxk0LGBrfFoyj8VxJeu/view">Saiba mais</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom footer-itens">
+            <p>&copy; 2024 O brownie da minha mãe. Todos os direitos reservados.</p>
+            <div class="payment-methods">
+                <i class="fab fa-cc-visa"></i>
+                <i class="fab fa-cc-mastercard"></i>
+                <i class="fab fa-cc-amex"></i>
+                <i class="fab fa-pix"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.menu-btn').addEventListener('click', () => {
+            document.querySelector('.navbar').classList.toggle('active');
+        });
+
+        document.querySelectorAll('.navbar a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.querySelector('.navbar').classList.remove('active');
+            });
+        });
+
+        window.addEventListener('scroll', () => {
+            document.querySelector('.navbar').classList.remove('active');
+        });
+    </script>
+
 </body>
 
 </html>
