@@ -154,13 +154,27 @@ section{
     line-height: 1.8rem;
 }
 
+.about .row .content .insta{
+    position: absolute;
+    margin: 1.6rem 2rem;
+    cursor: pointer;
+}
+
+.about .row .content .insta:hover{
+    position: absolute;
+    margin: 1.6rem 2rem;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+
 .itens-menu{
     width: 100px;
     height: 86px;
     border-radius: 50%;
 }
 
-.menu .box-container{
+.box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 1.5rem;
@@ -203,4 +217,146 @@ section{
 
 .menu .box-container .box:hover>*{
     color: #32251B;
+}
+
+.review .box-container .box{
+    border: 0.1rem solid #F0E0C8;
+    text-align: center;
+    padding: 3rem 2rem;
+
+}
+
+.review .box-container .box p{
+    font-size: 1.5rem;
+    color: white;
+    padding: 2rem 0;
+    line-height: 1.8;
+    font-weight: lighter;
+}
+
+.review .box-container .box h3{
+    color: white;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.review .box-container .box .clientes{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+}
+
+.address{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer .share{
+    padding: 1rem 0;
+}
+
+.footer .share img{
+    margin: 0.3rem;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.footer .share img:hover{
+    background-color: #433327;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+/* Responsividade */
+@media (max-width: 991px) {
+    html {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 7px;
+    }
+    
+    .home-container section {
+        padding: 2rem;
+    }
+    
+    .content h3 {
+        font-size: 4.5rem;
+    }
+    
+    .box-container {
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    }
+    
+    .about .row {
+        flex-direction: column;
+    }
+    
+    .container-image img {
+        width: 100%;
+    }
+    
+    .review .box-container .box {
+        padding: 2rem 1rem;
+    }
+    
+    iframe {
+        width: 100%;
+        height: 350px;
+    }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 6px;
+    }
+    
+    .header section {
+        flex-direction: column;
+    }
+    
+    .navbar {
+        padding: 1rem 0;
+    }
+    
+    .navbar a {
+        display: block;
+        padding: 1rem;
+        margin: 0.5rem 0;
+        text-align: center;
+    }
+    
+    .content h3 {
+        font-size: 3.5rem;
+    }
+    
+    .title {
+        font-size: 3.5rem;
+    }
+    
+    .box-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .menu .box-container .box,
+    .review .box-container .box {
+        padding: 2rem;
+    }
+    
+    .container-image {
+        padding: 0 1rem;
+    }
+    
+    .footer .share img {
+        padding: 0.8rem;
+    }
 }
