@@ -196,6 +196,7 @@ section {
     align-items: center;
     background-color: #382b21;
     gap: 1.5rem;
+    border-radius: 12px;
 }
 
 .about .row .container-image {
