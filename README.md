@@ -15,6 +15,8 @@ Este projeto é uma landing page desenvolvida com HTML, CSS e JavaScript para a 
 
 ✅ Contato via WhatsApp – Faça seu pedido de forma rápida e prática!
 
+✅ Função para que o cliente altere os links por uma planilha – Facilita o gerenciamento de links no site, para que ele não tenha que mexer com códigos!
+
 🚀 Tecnologias Utilizadas
 
 HTML5 – Estrutura da página
