@@ -28,4 +28,4 @@ JavaScript – Funcionalidades interativas
 
 📲 Como Acessar
 
-https://obrowniedaminhamae.vercel.app/#home
+https://obrowniedaminhamae.vercel.app
